@@ -1,0 +1,40 @@
+/* Emerald Green Theme */
+body {
+    background-color: #e8f5e9; /* Light mint green background */
+}
+
+nav {
+    background-color: #2e7d32 !important; /* Forest green header */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+    background-color: #388e3c; /* Medium green */
+}
+
+.btn-primary:hover {
+    background-color: #1b5e20; /* Dark green */
+}
+
+.btn-secondary {
+    background-color: #689f38; /* Olive green */
+}
+
+.card {
+    border-left: 4px solid #7cb342; /* Light green accent */
+}
+
+/* Status indicators */
+.status-not-voted {
+    background-color: #ef6c00; /* Orange - for contrast */
+}
+
+.status-voted {
+    background-color: #2e7d32; /* Matching header */
+}
+
+/* Input fields */
+input:focus, select:focus {
+    border-bottom: 1px solid #689f38 !important;
+    box-shadow: 0 1px 0 0 #689f38 !important;
+}
